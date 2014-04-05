@@ -1,7 +1,7 @@
 <?php
-// Copyright 20154 Tristan van Bokkem
+// Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the Signature plugin.
+// Dutch Definitions for the Signature plugin.
 
 $definitions["Signature"] = "Handtekening";
-$definitions["Max characters:"] = "Max characters:";
+$definitions["Max characters:"] = "Max karakters:";

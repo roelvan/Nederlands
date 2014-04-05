@@ -1,12 +1,11 @@
 <?php
-// Copyright 2013 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the SMTP plugin.
+// Dutch Definitions for the SMTP plugin.
 
 $definitions["Server"] = "Server";
-$definitions["Port"] = "Port";
-$definitions["Authentication"] = "Authentication";
-$definitions["Normal"] = "Normal";
+$definitions["Port"] = "Poort";
+$definitions["Authentication"] = "Authenticatie";
+$definitions["Normal"] = "Normaal";
 $definitions["TLS"] = "TLS";
 $definitions["SSL"] = "SSL";
