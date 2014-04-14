@@ -13,6 +13,7 @@ ET::$languageInfo["Nederlands"] = array(
 	"license" => "GPLv2"
 );
 
+setlocale(LC_ALL, 'nl_NL');
 // Define the character set that this language uses.
 $definitions["charset"] = "utf-8";
 
@@ -199,7 +200,7 @@ $definitions["Groups"] = "Groepen";
 $definitions["Guests can view the:"] = "Gasten kunnen bekijken:";
 
 $definitions["Header"] = "Header";
-$definitions["Header color"] = "Header kleur";
+$definitions["Header color"] = "Headerkleur";
 $definitions["Hide"] = "Verbergen";
 $definitions["Home page"] = "Startpagina";
 $definitions["HTML is allowed."] = "HTML is toegestaan.";
@@ -318,7 +319,7 @@ $definitions["Require administrator approval"] = "Vereist goedkeuring van de beh
 $definitions["Require users to confirm their email address"] = "Verplicht leden hun emailadres te valideren";
 $definitions["Restore"] = "Herstel";
 $definitions["restore"] = "herstel";
-$definitions["Reset"] = "Annulleer";
+$definitions["Reset"] = "Opnieuw";
 
 $definitions["Save Changes"] = "Opslaan";
 $definitions["Save Draft"] = "Opslaan als concept";
