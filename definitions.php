@@ -341,6 +341,7 @@ $definitions["Show the conversation list by default"] = "Toon standaard de onder
 $definitions["Show the forum title in the header"] = "Toon de titel in de header";
 $definitions["Sign Up"] = "Aanmelden";
 $definitions["Skins"] = "Skins";
+$definitions["Sort By"] = "Sorteer op";
 $definitions["Specify Setup Information"] = "Specifeer setup informatie";
 $definitions["Star to receive notifications"] = "Volg om notificaties te ontvangen";
 $definitions["Starred"] = "Volg";
