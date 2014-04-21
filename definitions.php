@@ -402,7 +402,7 @@ $definitions["View"] = "Bekijk";
 $definitions["Viewing: %s"] = "Bekijkt: %s";
 $definitions["viewingPosts"] = "<b>%s-%s</b> of %s berichten";
 
-$definitions["Warning"] = "Oh oh, er gaat iets niet goed!";
+$definitions["Warning"] = "Waarschuwing";
 $definitions["Welcome to esoTalk!"] = "Welkom op esoTalk!";
 $definitions["We've logged you in and taken you straight to your forum's administration panel. You're welcome."] = "We hebben je ingelogd en direct doorverwezen naar het administratie paneel. Geen dank.";
 $definitions["Write a reply..."] = "Schrijf een reactie...";
