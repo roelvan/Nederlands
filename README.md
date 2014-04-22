@@ -20,7 +20,7 @@ Chown the Dutch language pack folder to the right web user:
 chown -R apache:apache Nederlands/
 ```
 
-### Installation (Nederlands)
+### Installatie (Nederlands)
 
 Navigeer naar de esoTalk language folder:
 ```
