@@ -1,7 +1,7 @@
 <?php
 // Copyright 2014 Tristan van Bokkem
 
-// Dutch Definitions for the Profiles plugin.
+// Dutch Definitions for the Likes plugin.
 
 $definitions["Unlike"] = "Vind ik niet meer leuk";
 $definitions["Like"] = "Vind ik leuk";
