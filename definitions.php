@@ -444,7 +444,7 @@ $definitions["message.esoTalkUpdateAvailable"] = "Een nieuwe versie van esoTalk,
 $definitions["message.esoTalkUpdateAvailableHelp"] = "It's recommended to always have the latest version of esoTalk installed to reduce security risk. And hey, there might be some cool new features!";
 $definitions["message.esoTalkUpToDate"] = "Je versie van esoTalk is up-to-date.";
 $definitions["message.esoTalkUpToDateHelp"] = "I'm a poor college student who has spent many hundreds of hours developing esoTalk. If you like it, please consider <a href='%s' target='_blank'>donating</a>.";
-$definitions["message.fatalError"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li>Go outside, walk the dog, have a coffee... then <strong><a href='%1\$s'>try again</a></strong>!</li>\n<li>If you are the forum administrator, then you can <strong>get help on the <a href='%2\$s'>esoTalk website</a></strong>.</li>\n<li>Try hitting the computer - that sometimes works for me.</li>\n</ul>";
+$definitions["message.fatalError"] = "esoTalk has encountered a fatal error. Try again, or <a href='%1\$s'>get help</a>.";
 $definitions["message.fatalErrorInstaller"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Go back and check your settings.</strong> In particular, make sure your database information is correct.</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
 $definitions["message.fatalErrorUpgrader"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
 $definitions["message.fileUploadFailed"] = "Er is iets mis gegaan tijdens het uploaden. Wellicht is het bestand te groot of heeft het niet het juiste bestandstype?";
@@ -612,19 +612,3 @@ $definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$d
 // This is similar to the regular expression for the active gambit, but for the "has n reply(s)" gambit.
 // Usually you just need to change the "has" and "repl".
 $definitions["gambit.gambitHasNReplies"] = "/^heeft *(?<a>>|<|>=|<=)? *(?<b>\d+) *repl/";
-
-//reCaptcha
-$definitions["message.reCaptchaRefreshInfo"] = "klik op de afbeelding voor twee nieuwe woorden";
-$definitions["message.invalidCaptcha"] = "De door u ingevoerde CAPTCHA is ongeldig. Probeer het opnieuw.";
-$definitions["Are you human?"] = "Ben je een mens?";
-$definitions["mlarray.reCaptcha"] = array(
-	"instructions_visual" => "Voer de twee woorden in",
-	//"instructions_audio" => "",
-	//"play_again" => "",
-	//"cant_hear_this" => "",
-	//"visual_challenge" => "",
-	//"audio_challenge" => "",
-	"refresh_btn" => "Ververs de afbeelding",
-	//"help_btn" => "",
-	//"incorrect_try_again" => ""
-);
