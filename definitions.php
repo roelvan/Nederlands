@@ -13,7 +13,6 @@ ET::$languageInfo["Nederlands"] = array(
 	"license" => "GPLv2"
 );
 
-setlocale(LC_ALL, 'nl_NL');
 // Define the character set that this language uses.
 $definitions["charset"] = "utf-8";
 
