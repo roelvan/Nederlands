@@ -302,6 +302,7 @@ $definitions["Plugins"] = "Plugins";
 $definitions["Post a Reply"] = "Reageer";
 $definitions["Post count"] = "Aantal berichten";
 $definitions["Posts"] = "Posts";
+$definitions["Powered by esoTalk"] = "Mede mogelijk gemaakt door esoTalk";
 $definitions["Preview"] = "Voorbeeld";
 $definitions["Previous"] = "Vorige";
 
