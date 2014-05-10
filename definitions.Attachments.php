@@ -1,8 +1,7 @@
 <?php
-// Copyright 2013 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the Answers plugin.
+// Dutch Definitions for the Attachament plugin.
 
 $definitions["Attach a file"] = "Voeg een bijlage toe";
 $definitions["Drop files to upload"] = "Sleep bestanden hierin om te uploaden";
