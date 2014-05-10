@@ -1,6 +1,5 @@
 <?php
-// Copyright 2011 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2014 Tristan van Bokkem
 
 ET::$languageInfo["Nederlands"] = array(
 	"locale" => "nl_NL",
@@ -16,7 +15,7 @@ ET::$languageInfo["Nederlands"] = array(
 // Define the character set that this language uses.
 $definitions["charset"] = "utf-8";
 
-$definitions["date.full"] = "%c"; // see http://au.php.net/manual/en/function.date.php for details
+$definitions["date.full"] = "%c";
 
 $definitions["%d day ago"] = "gisteren";
 $definitions["%d days ago"] = "%d dagen geleden";
@@ -42,6 +41,7 @@ $definitions["%s conversations"] = "%s onderwerpen";
 $definitions["%s has registered and is awaiting approval."] = "%s is geregistreerd en wacht op goedkeuring.";
 $definitions["%s invited you to %s."] = "%s invited you to %s.";
 $definitions["%s joined the forum."] = "%s is lid geworden.";
+$definitions["%s mentioned you in %s."] = "%s noemt je in een reactie %s.";
 $definitions["%s post"] = "%s bericht";
 $definitions["%s posted %s"] = "%s geplaatst %s";
 $definitions["%s posted in %s."] = "%s geplaatst in %s.";
@@ -50,7 +50,6 @@ $definitions["%s reply"] = "%s reactie";
 $definitions["%s replies"] = "%s reacties";
 $definitions["%s Settings"] = "%s Instellingen";
 $definitions["%s started the conversation %s."] = "%s heeft het onderwerp gestart %s.";
-$definitions["%s tagged you in a post."] = "%s noemt je in een reactie.";
 $definitions["%s will be able to view this conversation."] = "%s is in staat dit onderwerp te bekijken.";
 $definitions["%s will be able to:"] = "%s kan het volgende:";
 
@@ -63,7 +62,6 @@ $definitions["Account type"] = "Account type";
 $definitions["Activate"] = "Activeren";
 $definitions["Activity"] = "Activiteit";
 $definitions["Add"] = "Toevoegen";
-$definitions["Admin skin"] = "Admin skin";
 $definitions["Administration"] = "Administratie";
 $definitions["Administrator email"] = "Beheerder email";
 $definitions["Administrator password"] = "Beheerder wachtwoord";
@@ -110,7 +108,6 @@ $definitions["Choose what people will see when they first visit your forum."] = 
 $definitions["Click on a member's name to remove them."] = "Klik op een lid om deze te verwijdern.";
 $definitions["Close registration"] = "Sluit registratie";
 $definitions["Confirm password"] = "Bevestigd wachtwoord";
-$definitions["Context"] = "Context";
 $definitions["Controls"] = "Beheer";
 $definitions["Conversation"] = "Onderwerp";
 $definitions["Conversations participated in"] = "Deelgenomen onderwerpen";
@@ -167,8 +164,8 @@ $definitions["Filter by name or group..."] = "Filter op naam of groep...";
 $definitions["Find this post"] = "Zoek deze reactie";
 $definitions["First posted"] = "Eerste reactie";
 $definitions["Follow"] = "Volgen";
-$definitions["Following"] = "Volgend";
 $definitions["Follow to receive notifications"] = "Volg om notificaties te ontvangen";
+$definitions["Following"] = "Volgend";
 $definitions["For %s seconds"] = "Voor %s seconden";
 $definitions["Forever"] = "Altijd";
 $definitions["Forgot?"] = "Vergeten?";
@@ -185,7 +182,6 @@ $definitions["forumDescription"] = "%s is een web-forum discussie %s, en %s.";
 $definitions["Give this group the 'moderate' permission on all existing channels"] = "Geef deze groep de 'moderate' permissies over alle bestaande kanalen";
 $definitions["Global permissions"] = "Algemene permissies";
 $definitions["Go to top"] = "Naar boven";
-$definitions["Go back to the Conversation"] = "Ga terug naar het onderwerp";
 $definitions["Group name"] = "Groepnaam";
 $definitions["group.administrator"] = "Beheerder";
 $definitions["group.administrator.plural"] = "Beheerders";
@@ -202,6 +198,7 @@ $definitions["Guests can view the:"] = "Gasten kunnen bekijken:";
 
 $definitions["Header"] = "Header";
 $definitions["Header color"] = "Headerkleur";
+$definitions["Heads Up!"] = "Opgelet!";
 $definitions["Hide"] = "Verbergen";
 $definitions["Home page"] = "Startpagina";
 $definitions["HTML is allowed."] = "HTML is toegestaan.";
@@ -224,7 +221,7 @@ $definitions["<strong>Keep this member's posts.</strong> All of this member's po
 
 $definitions["label.draft"] = "Concept";
 $definitions["label.locked"] = "Gesloten";
-$definitions["label.muted"] = "Gedempt";
+$definitions["label.ignored"] = "Genegeerd";
 $definitions["label.private"] = "Prive";
 $definitions["label.sticky"] = "Sticky";
 $definitions["Labels"] = "Labels";
@@ -301,7 +298,7 @@ $definitions["Plugins"] = "Plugins";
 $definitions["Post a Reply"] = "Reageer";
 $definitions["Post count"] = "Aantal berichten";
 $definitions["Posts"] = "Posts";
-$definitions["Powered by esoTalk"] = "Mede mogelijk gemaakt door esoTalk";
+$definitions["Powered by"] = "Mede mogelijk gemaakt door";
 $definitions["Preview"] = "Voorbeeld";
 $definitions["Previous"] = "Vorige";
 
@@ -329,11 +326,11 @@ $definitions["Save Draft"] = "Opslaan als concept";
 $definitions["Search conversations..."] = "Zoek onderwerpen...";
 $definitions["Search within this conversation..."] = "Zoek binnen onderwerp...";
 $definitions["Search"] = "Zoeken";
-$definitions["Searching in"] = "Zoeken in";
 $definitions["See the private conversations I've had with %s"] = "Toon de prive berichten die ik heb gehad met %s";
 $definitions["Set a New Password"] = "Stel een nieuwe wachtwoord in";
 $definitions["Settings"] = "Instellingen";
 $definitions["Show an image in the header"] = "Toon een afbeelding in de header";
+$definitions["Show in context"] = "Toon in context";
 $definitions["Show matching posts"] = "Toon berichten";
 $definitions["Show the channel list by default"] = "Toon standaard de kanalen lijst";
 $definitions["Show the conversation list by default"] = "Toon standaard de onderwerpen lijst";
@@ -386,7 +383,6 @@ $definitions["Until someone replies"] = "Totdat iemand reageert";
 $definitions["Untitled conversation"] = "Onderwerp zonder titel";
 $definitions["Upgrade esoTalk"] = "Upgrade esoTalk";
 $definitions["Use a background image"] = "Gebruik een achtergrond afbeelding";
-$definitions["Use for admin"] = "Gebruik voor admin";
 $definitions["Use for mobile"] = "Gebruik voor mobiel";
 $definitions["Use friendly URLs"] = "Gebruik vriendelijke URLs";
 $definitions["Used to verify your account and subscribe to conversations"] = "Benodigt om je account te bevestigen en voor notificaties";
@@ -433,19 +429,17 @@ $definitions["message.cookieAuthenticationTheft"] = "Om veiligheidsredenen kunne
 $definitions["message.deleteChannelHelp"] = "Woah, wacht even! Als je dit kanaal verwijderd is er geen weg meer terug. Er is geen <em>makkelijke</em> manier om hem terug te krijgen. Alle onderwerpen in dit kanaal kunnen worden verplaatst naar een ander kanaal naar keuze.";
 $definitions["message.emailConfirmed"] = "Hoi! Je account is gevalideerd en je kunt nu deelnemen aan de gesprekken. Of start zelf <a href='".URL("conversation/start")."'>een onderwerp</a>.";
 $definitions["message.emailDoesntExist"] = "Dit emailadres is niet bekend, wellicht een typefout gemaakt?";
-$definitions["message.emailNotYetConfirmed"] = "Je moet je emailadres bevestigen voordat je ermee in kan loggen!<a href='%s'>Klik hier</a> om de confirmatie email opnieuw te sturen.";
+$definitions["message.emailNotYetConfirmed"] = "Je moet je emailadres bevestigen voordat je ermee in kan loggen! Als je geen email hebt ontvangen, controleer dan je spam folder of <a href='%s'>klik hier</a> om de confirmatie email opnieuw te sturen.";
 $definitions["message.emailTaken"] = "Vreemd, er is al een lid met dit emailadres!";
 $definitions["message.empty"] = "Dit veld is verplicht.";
 $definitions["message.emptyPost"] = "Tja, het is wel handig als je iets in je reactie schijft he...";
 $definitions["message.emptyTitle"] = "De titel van het onderwerp kan niet leeg zijn. Hoe moet men er dan op klikken?.";
-$definitions["message.esoTalkAlreadyInstalled"] = "<strong>esoTalk is already installed.</strong><br/><small>To reinstall esoTalk, you must remove <strong>config/config.php</strong>.</small>";
+$definitions["message.esoTalkAlreadyInstalled"] = "<strong>esoTalk is al geinstalleerd.</strong><br/><small>Verwijderd <strong>config/config.php</strong> om esoTalk te herinstalleren.</small>";
 $definitions["message.esoTalkUpdateAvailable"] = "Een nieuwe versie van esoTalk, %s, is nu beschikbaar.";
-$definitions["message.esoTalkUpdateAvailableHelp"] = "It's recommended to always have the latest version of esoTalk installed to reduce security risk. And hey, there might be some cool new features!";
+$definitions["message.esoTalkUpdateAvailableHelp"] = "Het wordt aangeraden om altijd de meeste recente versie van esoTalk geinstalleerd te hebben om beveiligingsrisico's te minimaliseren. En wie weet, krijg je gelijk wat nieuwe coole features!";
 $definitions["message.esoTalkUpToDate"] = "Je versie van esoTalk is up-to-date.";
-$definitions["message.esoTalkUpToDateHelp"] = "I'm a poor college student who has spent many hundreds of hours developing esoTalk. If you like it, please consider <a href='%s' target='_blank'>donating</a>.";
-$definitions["message.fatalError"] = "esoTalk has encountered a fatal error. Try again, or <a href='%1\$s'>get help</a>.";
-$definitions["message.fatalErrorInstaller"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Go back and check your settings.</strong> In particular, make sure your database information is correct.</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
-$definitions["message.fatalErrorUpgrader"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
+$definitions["message.esoTalkUpToDateHelp"] = "Ik ben een arme student die honderden uren in het ontwikkelen van esoTalk heeft gestoken. Als je esoTalk leuk vind is een <a href='%s' target='_blank'>donatie</a> altijd welkom.";
+$definitions["message.fatalError"] = "esoTalk is een onherstelbare fout tegengekomen. Probeer het opnieuw, of <a href='%1\$s' target='_blank'>vraag om hulp</a>.";
 $definitions["message.fileUploadFailed"] = "Er is iets mis gegaan tijdens het uploaden. Wellicht is het bestand te groot of heeft het niet het juiste bestandstype?";
 $definitions["message.fileUploadFailedMove"] = "Het bestand wat je hebt geupload kan niet worden gekopieerd naar de juiste locatie. Neem contact op met de forum beheerdes.";
 $definitions["message.fileUploadNotImage"] = "Het bestand wat je probeert te uploaden is geen afbeelding of ander toegestaan formaat.";
@@ -454,16 +448,15 @@ $definitions["message.forgotPasswordHelp"] = "Dus je bent je wachtwoord vergeten
 $definitions["message.fulltextKeywordWarning"] = "Let op dat zoektermen korter dan 4 karakters en lidwoorden zoals 'de' en 'het', niet worden gebruikt.";
 $definitions["message.gambitsHelp"] = "Gambits zijn uitdrukkingen die beschrijven wat je zoekt. Klik op een gambit om deze te gebruiken in het zoekveld. Dubbelklik om direct naar een gambit te zoeken. Normale zoektermen werken uiteraard ook!";
 $definitions["message.gdNotEnabledWarning"] = "De <strong>GD extensie</strong> is niet geactiveerd.<br/><small>Deze is benodigd om avatars te wijzigen en op te slaan. Vraag je webmaster om deze te installeren/activeren.</small>";
-$definitions["message.greaterMySQLVersionRequired"] = "You must have <strong>MySQL 4 or greater</strong> installed and the <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extension enabled in PHP</a>.<br/><small>Please install/upgrade both of these requirements or request that your host or administrator install them.</small>";
-$definitions["message.greaterPHPVersionRequired"] = "Your server must have <strong>PHP 5.0.0 or greater</strong> installed to run esoTalk.<br/><small>Please upgrade your PHP installation or request that your host or administrator upgrade the server.</small>";
+$definitions["message.greaterMySQLVersionRequired"] = "Je moet <strong>MySQL 4 of hoger</strong> geinstalleerd hebben en de <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extensie in PHP geactiveerd hebben</a>.<br/><small>Installeer of upgrade beide vereisten of vraag je administrator om hiervoor te zorgen.</small>";
+$definitions["message.greaterPHPVersionRequired"] = "<strong>Je server moet PHP %s of hoger geinstalleerd hebben om esoTalk te hosten.</strong> Update je PHP installatie of vraag je hosting partij om de server up te daten.";
 $definitions["message.incorrectLogin"] = "Je inlog gegevens zijn niet correct.";
 $definitions["message.incorrectPassword"] = "Je huidige wachtwoord is niet correct.";
-$definitions["message.installerAdminHelp"] = "esoTalk will use the following information to set up your administrator account on your forum.";
-$definitions["message.installerFilesNotWritable"] = "esoTalk cannot write to the following files/folders: <strong>%s</strong>.<br/><small>To resolve this, you must navigate to these files/folders in your FTP client and <strong>chmod</strong> them to <strong>777</strong>.</small>";
-$definitions["message.installerMySQLHelp"] = "esoTalk needs access to a MySQL database to store all your forum's data in, such as conversations and posts. If you're unsure of any of these details, you may need to ask your hosting provider.";
-$definitions["message.installerWelcome"] = "<p>Welcome to the esoTalk installer! We need a few details from you so we can get your forum set up and ready to go.</p>\n<p>If you have any trouble, get help on the <a href='%s'>esoTalk support forum</a>.</p>";
+$definitions["message.installerAdminHelp"] = "esoTalk zal de volgende informatie gebruiken om een administrator account op het forum aan te maken.";
+$definitions["message.installerFilesNotWritable"] = "Het is niet mogelijk voor esoTalk om de volgende bestanden/mappen weg te schrijven: <strong>%s</strong>.<br/><small>Om dit op te lossen navigeer je met een FTP client naar deze bestanden/mappen en <strong>chmod</strong> je ze met <strong>777</strong>.</small>";
+$definitions["message.installerWelcome"] = "Installeer je forum door onderstaand formulier in te vullen.<br>Bij eventuele problemen kan je om hulp vragen via onze <a href='%s' target='_blank'>website</a>.";
 $definitions["message.invalidChannel"] = "Je hebt een niet geldig kanaal geselecteerd!";
-$definitions["message.invalidEmail"] = "Dit emailadres is niet geldig...";
+$definitions["message.invalidEmail"] = "Dit emailadres is niet geldig.";
 $definitions["message.invalidUsername"] = "Je gebruikersnaam moet tussen de 3 en 20 karakters lang zijn.";
 $definitions["message.javascriptRequired"] = "Als je deze pagina correct wilt weergeven, moet je JavaScript ingeschakelen in je browser.";
 $definitions["message.languageUninstalled"] = "De taal is gedeïnstalleerd.";
@@ -486,7 +479,7 @@ $definitions["message.noSearchResults"] = "Er zijn geen onderwerpen gevonden die
 $definitions["message.noSearchResultsMembers"] = "Er zijn geen leden gevonden die aan je zoekopdracht voldoen.";
 $definitions["message.noSearchResultsPosts"] = "Er zijn geen reacties gevonden die aan je zoekopdracht voldoen.";
 $definitions["message.noSkinsInstalled"] = "Er zijn momenteel geen skins geinstalleerd.";
-$definitions["message.notWritable"] = "<code>%s</code> is not writeable. Try <code>chmod</code>ing it to <code>777</code>, or if it doesn't exist, <code>chmod</code> the folder it is contained within.";
+$definitions["message.notWritable"] = "<code>%s</code> is niet schrijfbaar. Probeer het bestand te <code>chmod</code>en met <code>777</code>, of als hij niet bestaat, <code>chmod</code> dan de map waarin het bestand hoort te staan.";
 $definitions["message.pageNotFound"] = "De pagina kon niet gevonden worden.";
 $definitions["message.passwordChanged"] = "Je wachtwoord is aangepast. Nu kan je inloggen! Enne, probeer hem nu niet meer te vergeten, ok?";
 $definitions["message.passwordEmailSent"] = "Ok, we hebben je een email met daarin een link gestuurd waarmee je je wachtwoord opnieuw kan instellen. Controleer ook je spam folder als je hem binnen nu en twee minuten niet hebt ontvangen. Helaas worden ook onze emails soms als spam gemarkeerd, ongeloofelijk he?!";
@@ -497,19 +490,19 @@ $definitions["message.pluginDependencyNotMet"] = "Om deze plugin te activeren mo
 $definitions["message.pluginUninstalled"] = "De plugin is gedeïnstalleerd.";
 $definitions["message.postNotFound"] = "De reactie die je zoekt kan niet worden gevonden.";
 $definitions["message.postTooLong"] = "Je reactie is wel erg lang, eigenlijk veel te lang! Het maximum aantal karakters is %s. Dat is lang genoeg!";
-$definitions["message.preInstallErrors"] = "The following errors were found with your esoTalk setup. They must be resolved before you can continue the installation.";
-$definitions["message.preInstallWarnings"] = "The following errors were found with your esoTalk setup. You can continue the esoTalk install without resolving them, but some esoTalk functionality may be limited.";
+$definitions["message.preInstallErrors"] = "De volgende fouten zijn gevonden tijdens je esoTalk installatie. Deze moeten opgelost worden voordat je met de installatie door kunt gaan.";
+$definitions["message.preInstallWarnings"] = "De volgende fouten zijn gevonden tijdens je esoTalk installatie. Je kan de installatie voortzetten zonder deze op te lossen maar sommige funtionaliteit van esoTalk zal beperkt zijn.";
 $definitions["message.reduceNumberOfGambits"] = "Verminder het aantal gambits of zoektermen om in groter aantal onderwerpen te doorzoeken.";
-$definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals</strong> setting is enabled.<br/><small>While esoTalk can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoTalk from having problems.</small>";
+$definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals</strong> instelling is ingeschakeld.<br/><small>Ondanks dat esoTalk kan functioneren met deze instelling. Is het aan te raden om deze uit schakelen in verband met een betere beveiliging en mogelijke problemen binnen esoTalk zelf.</small>";
 $definitions["message.registrationClosed"] = "Dit is een gesloten forum. Registratie voor dit forum is niet mogelijk.";
-$definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
-$definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.</small>";
+$definitions["message.removeDirectoryWarning"] = "Hey! Het lijkt erop dat je de <code>%s</code> directory niet hebt verwijderd, ondanks dat we je dit gevraagd hebben! We adviseren je om de directory toch echt te verwijderen zodat hackers er niet slechts mee kunnen doen.";
+$definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is ingeschakeld.<br/><small>Dit geeft mogelijk problemen met esoTalk, maar het is geen showstopper als je het niet uit kan zetten.</small>";
 $definitions["message.searchAllConversations"] = "Probeer dit zoekterm door alle onderwerpen.";
 $definitions["message.setNewPassword"] = "Ok! Wat mag het nieuwe wachtwoord worden?";
 $definitions["message.skinUninstalled"] = "De skin is gedeïnstalleerd.";
 $definitions["message.suspended"] = "Blegh! Een forum moderator heeft je account <strong>gedeactiveerd</strong>. Balen, want totdat je account weer geactiveerd wordt valt er vrij weinig te doen hier.";
 $definitions["message.suspendMemberHelp"] = "%s deactiveren zorgt ervoor dat hij niet meer kan reageren op onderwerpen, geen onderwerpen meer kan starten of priveberichten meer kan bekijken. Feitelijk heeft hij hierdoor dezelfde rechten als een gast.";
-$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoTalk installation alongside the existing one, <strong>change the table prefix</strong>.";
+$definitions["message.tablePrefixConflict"] = "Het installatiesysteem heeft ontdekt dat er al een andere installatie van esoTalk aanwezig is met dezelfde MySQL database en met dezelfde tabel prefix gebruikt.<br/>Klik op 'Install My Forum' opnieuw om deze te overschrijven. <strong>Alle bestaande gegevens gaan hiermee verloren.</strong><br/>Verander de <strong>table prefix</strong> als je een nieuwe esoTalk installatie wilt aanmaken naast de bestaande installatie.";
 $definitions["message.unsuspendMemberHelp"] = "%s heractiveren zorgt ervoor dat hij weer kan deelnemen aan de onderwerpen op dit forum.";
 $definitions["message.upgradeSuccessful"] = "esoTalk is succesvol geupgrade.";
 $definitions["message.waitForApproval"] = "Voordat je je account kunt gebruiken moet een beheerder deze eerst goedkeuren. We sturen je een email zodra je account is goedgekeurd!";
@@ -522,22 +515,22 @@ $definitions["email.header"] = "<p>Hoi %s!</p>";
 $definitions["email.footer"] = "<p>(Als je geen emails meer van ons wilt ontvangen kan je dit in je <a href='%s'>notificatie instellingen aanpassen</a>.)</p>";
 
 $definitions["email.confirmEmail.subject"] = "%1\$s, bevestig alsjeblieft je emailadres";
-$definitions["email.confirmEmail.body"] = "<p>Iemand (hopelijk jijzelf!) heeft zicht aangemeld voor het forum '%1\$s' met dit emailadres.</p><p>Als jij dit bent geweest kan je op onderstaande link klikken om je account te activeren:<br>%2\$s</p>";
+$definitions["email.confirmEmail.body"] = "<p>Iemand (hopelijk jij!) heeft zicht aangemeld voor het forum '%1\$s' met dit emailadres.</p><p>Als jij dit bent geweest kan je op onderstaande link klikken om je account te activeren:<br>%2\$s</p>";
 
-$definitions["email.approved.subject"] = "%1\$s, your account has been approved";
-$definitions["email.approved.body"] = "<p>Your account on %1\$s has been approved.</p><p>Visit the following link to log in and start talking:<br>%2\$s</p>";
+$definitions["email.approved.subject"] = "%1\$s, je account is goedgekeurd";
+$definitions["email.approved.body"] = "<p>Je account op %1\$s is goedgekeurd.</p><p>Klik op de volgende link om in te loggen en deel te nemen aan de conversaties:<br>%2\$s</p>";
 
 $definitions["email.forgotPassword.subject"] = "Ben je je wachtwoord vergeten, %1\$s?";
-$definitions["email.forgotPassword.body"] = "<p>Iemand (hopelijk jijzelf!) heeft aangeven dat je het wachtwoord wilt wijzigen voor het forum '%1\$s'. Als dit niet het geval is kan je deze email als niet verzonden beschouwen.</p><p>Als je wel je wachtwoord wilt wijzigen klik je op onderstaande link:<br>%2\$s</p>";
+$definitions["email.forgotPassword.body"] = "<p>Iemand (hopelijk jij!) heeft aangeven dat je het wachtwoord wilt wijzigen voor het forum '%1\$s'. Als dit niet het geval is kan je deze email als niet verzonden beschouwen.</p><p>Als je wel je wachtwoord wilt wijzigen klik je op onderstaande link:<br>%2\$s</p>";
 
-$definitions["email.mention.subject"] = "%1\$s noemt je in een reactie";
-$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> noemt je in een reactie binnen het onderwerp <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
+$definitions["email.mention.subject"] = "[Genoemd door %1\$s] %2\$s";
+$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> heeft je genoemd in een reactie met het onderwerp <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
 
-$definitions["email.privateAdd.subject"] = "Je bent toegevoegd aan een privebericht";
+$definitions["email.privateAdd.subject"] = "[Prive bericht] %1\$s";
 $definitions["email.privateAdd.body"] = "<p>Je bent toegevoegd aan een privebericht met als onderwerp <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>Klik op de volgende link om het bericht te bekijken:<br>%3\$s</p>";
 
 $definitions["email.post.subject"] = "[Nieuwe reactie] %1\$s";
-$definitions["email.post.body"] = "<p><strong>%1\$s</strong> heeft een reactie geplaatst in een onderwerp dat je volgt: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
+$definitions["email.post.body"] = "<p><strong>%1\$s</strong> heeft een reactie achtergelaten in een onderwerp dat je volgt: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
 
 
 // Translating the gambit system can be quite complex, but we'll do our best to get you through it. :)
@@ -559,7 +552,7 @@ $definitions["gambit.private"] = "prive";
 $definitions["gambit.random"] = "willekeurig";
 $definitions["gambit.reverse"] = "omgekeerd";
 $definitions["gambit.starred"] = "volgt";
-$definitions["gambit.muted"] = "gedempt";
+$definitions["gambit.ignored"] = "genegeerd";
 $definitions["gambit.sticky"] = "sticky";
 $definitions["gambit.unread"] = "ongelezen";
 $definitions["gambit.limit:"] = "limiet:";
