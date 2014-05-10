@@ -143,7 +143,7 @@ $definitions["Don't require users to confirm their account"] = "Account confirma
 
 $definitions["Edit Channel"] = "Bewerk kanaal";
 $definitions["Edit Group"] = "Bewerk groep";
-$definitions["Edit member groups"] = "Bewerk groepsleden";
+$definitions["Edit member groups"] = "Bewerk groepen";
 $definitions["Edit your profile"] = "Bewerk je profiel";
 $definitions["Edit"] = "Bewerken";
 $definitions["Edited %s by %s"] = "Bewerkt %s door %s";
