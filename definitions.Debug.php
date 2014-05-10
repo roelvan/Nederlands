@@ -1,7 +1,7 @@
 <?php
 // Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the Debug plugin.
+// Dutch Definitions for the Debug plugin.
 
 $definitions["MySQL queries"] = "MySQL queries";
 $definitions["Page loaded in %s seconds"] = "Pagina geladen in %s seconden";
