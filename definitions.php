@@ -217,8 +217,6 @@ $definitions["Installed skins"] = "Geinstalleerde skins";
 $definitions["is %s"] = "is %s";
 
 $definitions["Joined"] = "Lid sinds";
-$definitions["Jump to last"] = "Spring naar laatste";
-$definitions["Jump to unread"] = "Spring naar ongelezen";
 $definitions["just now"] = "zojuist";
 
 $definitions["Keep me logged in"] = "Onthoudt wachtwoord";
@@ -232,6 +230,7 @@ $definitions["label.sticky"] = "Sticky";
 $definitions["Labels"] = "Labels";
 $definitions["Last active"] = "Laatst actief";
 $definitions["Last active %s"] = "Laatst actief %s";
+$definitions["Latest"] = "Laatste bericht";
 $definitions["Latest News"] = "Laatste nieuws";
 $definitions["Loading..."] = "Laden...";
 $definitions["Lock"] = "Sluit";
