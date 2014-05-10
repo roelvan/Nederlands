@@ -292,7 +292,7 @@ $definitions["Only allow members of this group to see who else is in it"] = "All
 $definitions["Open registration"] = "Open registratie";
 $definitions["optional"] = "optioneel";
 $definitions["Order By:"] = "Sorteer op:";
-$definitions["Original Post"] = "origineel bericht";
+$definitions["Original Post"] = "Origineel bericht";
 
 $definitions["Page Not Found"] = "Pagina niet gevonden";
 $definitions["Password"] = "Wachtwoord";
