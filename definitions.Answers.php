@@ -1,8 +1,7 @@
 <?php
-// Copyright 2013 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the Answers plugin.
+// Dutch Definitions for the Answers plugin.
 
 $definitions["Answer"] = "Antwoord";
 $definitions["Answered"] = "Beantwoord";
