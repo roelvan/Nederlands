@@ -1,8 +1,7 @@
 <?php
-// Copyright 2011 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2014 Tristan van Bokkem
 
-// English Definitions for the BBCode plugin.
+// Dutch Definitions for the BBCode plugin.
 
 $definitions["Code"] = "Code";
 $definitions["Image"] = "Afbeelding";
