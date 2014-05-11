@@ -22,6 +22,7 @@ $definitions["Disable Unique Keys Check"] = "Schake Unique Keys Check uit";
 $definitions["Download Backup"] = "Download backup";
 $definitions["Full"] = "Volledig";
 $definitions["Maintenance"] = "Onderhoud";
+$definitions["Manage Backups"] = "Beheer Backups";
 $definitions["No Backups Available"] = "Geen backups beschikbaar";
 $definitions["None"] = "Geen";
 $definitions["Restore"] = "Herstel";
