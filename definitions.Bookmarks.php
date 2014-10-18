@@ -5,6 +5,6 @@
 
 $definitions["Bookmark"] = "Sla op als favoriet";
 $definitions["Unbookmark"] = "Verwijder als favoriet";
-$definitions["gambit.bookmarked"] = "Favoriet";
+$definitions["gambit.bookmarked"] = "favoriet";
 $definitions["label.bookmarked"] = "Favoriet";
 
