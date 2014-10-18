@@ -86,7 +86,7 @@ $definitions["Base URL"] = "Forum URL";
 $definitions["Bold"] = "Vet";
 $definitions["By %s"] = "Door %s";
 
-$definitions["Can suspend/unsuspend members"] = "Kan leden deactiveren/reactiveren";
+$definitions["Can suspend/unsuspend members"] = "Kan leden deactiveren/heractiveren";
 $definitions["Cancel"] = "Annuleren";
 $definitions["Change"] = "Wijzig";
 $definitions["Change %s's Permissions"] = "Wijzig %s's permissies";
@@ -103,6 +103,7 @@ $definitions["Channel List"] = "Kanalenlijst";
 $definitions["Channel title"] = "Kanaaltitel";
 $definitions["Channel slug"] = "Kanaal slug";
 $definitions["Channels"] = "Kanalen";
+$definitions["Choose a Channel"] = "Kies een Kanaal";
 $definitions["Choose a secure password of at least %s characters"] = "Kies een veilig wachtwoord met op zijn minst %s tekens";
 $definitions["Choose what people will see when they first visit your forum."] = "Kies wat mensen zien tijdens hun eerste bezoek.";
 $definitions["Click on a member's name to remove them."] = "Klik op een lid om deze te verwijdern.";
@@ -164,7 +165,7 @@ $definitions["Filter by name or group..."] = "Filter op naam of groep...";
 $definitions["Find this post"] = "Zoek deze reactie";
 $definitions["First posted"] = "Eerste reactie";
 $definitions["Follow"] = "Volgen";
-$definitions["Follow to receive notifications"] = "Volg om notificaties te ontvangen";
+$definitions["Follow to receive notifications"] = "Volg dit kanaal om notificaties te ontvangen";
 $definitions["Following"] = "Volgend";
 $definitions["For %s seconds"] = "Voor %s seconden";
 $definitions["Forever"] = "Altijd";
@@ -204,6 +205,7 @@ $definitions["Home page"] = "Startpagina";
 $definitions["HTML is allowed."] = "HTML is toegestaan.";
 
 $definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoTalk support forum</a>."] = "Mocht je tegen problemen aanlopen of wens je hulp tijdens de installatie kan je om assistentie vragen op het <a href='%s'>esoTalk support forum</a>.";
+$definitions["Ignore conversation"] = "Negeer onderwerp";
 $definitions["Install esoTalk"] = "Installeer esoTalk";
 $definitions["Install My Forum"] = "Installeer mijn forum";
 $definitions["Installed Languages"] = "Geinstalleerde Languages";
@@ -235,6 +237,7 @@ $definitions["Log In"] = "Inloggen";
 $definitions["Log Out"] = "Uitloggen";
 
 $definitions["Make member and online list visible to:"] = "Maak leden en online lijst zichtbaar voor:";
+$definitions["Manage Channels"] = "Beheer kanalen";
 $definitions["Manage Groups"] = "Beheer groepen";
 $definitions["Manage Languages"] = "Beheer talen";
 $definitions["Manage your forum's channels (categories)"] = "Beheer de forum kanalen (categorieën)";
@@ -285,11 +288,11 @@ $definitions["Now"] = "nu";
 $definitions["OK"] = "Ok";
 $definitions["Online"] = "Online";
 $definitions["online"] = "online";
-$definitions["Only allow members of this group to see who else is in it"] = "Alleen leden van deze groep kunnen zien wie er nog meeer lid is van deze group";
+$definitions["Only allow members of this group to see who else is in it"] = "Alleen leden van deze groep kunnen zien wie er nog meer lid is van deze groep";
 $definitions["Open registration"] = "Open registratie";
 $definitions["optional"] = "optioneel";
 $definitions["Order By:"] = "Sorteer op:";
-$definitions["Original Post"] = "Origineel bericht";
+$definitions["Original Post"] = "Eerste bericht";
 
 $definitions["Page Not Found"] = "Pagina niet gevonden";
 $definitions["Password"] = "Wachtwoord";
@@ -301,6 +304,7 @@ $definitions["Posts"] = "Posts";
 $definitions["Powered by"] = "Mede mogelijk gemaakt door";
 $definitions["Preview"] = "Voorbeeld";
 $definitions["Previous"] = "Vorige";
+$definitions["Primary color"] = "Primaire kleur";
 
 $definitions["Quote"] = "Quote";
 $definitions["quote"] = "quote";
@@ -319,7 +323,7 @@ $definitions["Require administrator approval"] = "Vereist goedkeuring van de beh
 $definitions["Require users to confirm their email address"] = "Verplicht leden hun emailadres te valideren";
 $definitions["Restore"] = "Herstel";
 $definitions["restore"] = "herstel";
-$definitions["Reset"] = "Opnieuw";
+$definitions["Reset"] = "Reset";
 
 $definitions["Save Changes"] = "Opslaan";
 $definitions["Save Draft"] = "Opslaan als concept";
@@ -418,8 +422,8 @@ $definitions["message.cannotEditSinceReply"] = "Je kan je reactie niet meer bewe
 $definitions["message.changesSaved"] = "Je aanpassingen zijn opgeslagen.";
 $definitions["message.channelsHelp"] = "Kanalen worden gebruikt als categorieën binnen het forum. Je kan zoveel kanalen maken als nodig en ze rangschikken naar wens door ze hieronder te slepen en neer te zetten.";
 $definitions["message.channelSlugTaken"] = "Deze slug wordt al gebruikt door een ander kanaal";
-$definitions["message.confirmDelete"] = "Weet je zeker dat je dit wilt verwijderen?";
-$definitions["message.confirmDiscardReply"] = "Je hebt je bericht nog niet opgeslagen als concept. Weet je zeker dat je hem wilt verwijderen?";
+$definitions["message.confirmDelete"] = "Weet je zeker dat je het bericht wilt verwijderen?";
+$definitions["message.confirmDiscardPost"] = "Je hebt je bericht nog niet opgeslagen als concept! Als je nu de pagina verlaat wordt het bericht verwijderd.";
 $definitions["message.confirmEmail"] = "Voordat je je nieuwe account kan gebruiken, moet je eerst je emailadres bevestigen. Je ontvangt binnen nu en twee minuten een email met een link waarmee je je account kan activeren.";
 $definitions["message.confirmLeave"] = "Let op! Je hebt je wijzigingen niet opgeslagen! Als je nu de pagina verlaat verlies je al je wijzigingen. Weet je het zeker?";
 $definitions["message.connectionError"] = "esoTalk kon geen verbinding maken met de MySQL server. We hebben de volgende error ontvangen:<br/>%s";
@@ -450,6 +454,7 @@ $definitions["message.gambitsHelp"] = "Gambits zijn uitdrukkingen die beschrijve
 $definitions["message.gdNotEnabledWarning"] = "De <strong>GD extensie</strong> is niet geactiveerd.<br/><small>Deze is benodigd om avatars te wijzigen en op te slaan. Vraag je webmaster om deze te installeren/activeren.</small>";
 $definitions["message.greaterMySQLVersionRequired"] = "Je moet <strong>MySQL 4 of hoger</strong> geinstalleerd hebben en de <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extensie in PHP geactiveerd hebben</a>.<br/><small>Installeer of upgrade beide vereisten of vraag je administrator om hiervoor te zorgen.</small>";
 $definitions["message.greaterPHPVersionRequired"] = "<strong>Je server moet PHP %s of hoger geinstalleerd hebben om esoTalk te hosten.</strong> Update je PHP installatie of vraag je hosting partij om de server up te daten.";
+$definitions["message.groupsHelp"] = "Groepen kan je gebruiken om leden te groeperen. Je kan zoveel groepen maken als nodig.";
 $definitions["message.incorrectLogin"] = "Je inlog gegevens zijn niet correct.";
 $definitions["message.incorrectPassword"] = "Je huidige wachtwoord is niet correct.";
 $definitions["message.installerAdminHelp"] = "esoTalk zal de volgende informatie gebruiken om een administrator account op het forum aan te maken.";
@@ -556,6 +561,7 @@ $definitions["gambit.ignored"] = "genegeerd";
 $definitions["gambit.sticky"] = "sticky";
 $definitions["gambit.unread"] = "ongelezen";
 $definitions["gambit.limit:"] = "limiet:";
+$definitions["gambit.title:"] = "titel:";
 
 // Aliases
 // These are gambits which tell the gambit system to use another gambit.
