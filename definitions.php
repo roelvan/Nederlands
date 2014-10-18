@@ -2,7 +2,7 @@
 // Copyright 2014 Tristan van Bokkem
 
 ET::$languageInfo["Nederlands"] = array(
-	"locale" => "nl_NL",
+	"locale" => "nl_NL.UTF-8",
 	"name" => "Nederlands",
 	"description" => "Een Nederlands taal pakket.",
 	"version" => ESOTALK_VERSION,
