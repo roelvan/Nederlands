@@ -180,7 +180,7 @@ $definitions["Forum privacy"] = "Forum privacy";
 $definitions["Forum Settings"] = "Instellingen";
 $definitions["Forum Statistics"] = "Forum statistieken";
 $definitions["Forum title"] = "Forum titel";
-$definitions["forumDescription"] = "%s is een web-forum discussie %s, en %s.";
+$definitions["forumDescription"] = "%s is een discussie forum over %s, en %s.";
 
 $definitions["Give this group the 'moderate' permission on all existing channels"] = "Geef deze groep de 'moderate' permissies over alle bestaande kanalen";
 $definitions["Global permissions"] = "Algemene permissies";
@@ -519,7 +519,7 @@ $definitions["message.waitToSearch"] = "Rustig aan! Je voert iets te vaak zoekop
 
 // Emails.
 $definitions["email.header"] = "<p>Hoi %s!</p>";
-$definitions["email.footer"] = "<p>(Als je geen emails meer van ons wilt ontvangen kan je dit in je <a href='%s'>notificatie instellingen aanpassen</a>.)</p>";
+$definitions["email.footer"] = "<p>(Als je geen emails meer van ons wilt ontvangen kan je dit in je <a href='%s'>notificatie instellingen aanpassen</a>)</p>";
 
 $definitions["email.confirmEmail.subject"] = "%1\$s, bevestig alsjeblieft je emailadres";
 $definitions["email.confirmEmail.body"] = "<p>Iemand (hopelijk jij!) heeft zicht aangemeld voor het forum '%1\$s' met dit emailadres.</p><p>Als jij dit bent geweest kan je op onderstaande link klikken om je account te activeren:<br>%2\$s</p>";
