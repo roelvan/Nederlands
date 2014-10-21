@@ -534,7 +534,7 @@ $definitions["email.mention.subject"] = "[Genoemd door %1\$s] %2\$s";
 $definitions["email.mention.body"] = "<p><strong>%1\$s</strong> heeft je genoemd in een reactie met het onderwerp <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
 
 $definitions["email.privateAdd.subject"] = "[Prive bericht] %1\$s";
-$definitions["email.privateAdd.body"] = "<p>Je bent toegevoegd aan een privebericht met als onderwerp <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>Klik op de volgende link om het bericht te bekijken:<br>%3\$s</p>";
+$definitions["email.privateAdd.body"] = "<p>Je bent toegevoegd aan een privebericht met als onderwerp <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>Klik op onderstaande link om op het bericht te reageren:<br>%3\$s</p>";
 
 $definitions["email.post.subject"] = "[Nieuwe reactie] %1\$s";
 $definitions["email.post.body"] = "<p><strong>%1\$s</strong> heeft een reactie achtergelaten in een onderwerp dat je volgt: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>Klik op de volgende link om de reactie te bekijken:<br>%4\$s</p>";
