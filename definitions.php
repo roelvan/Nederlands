@@ -521,11 +521,11 @@ $definitions["message.waitToSearch"] = "Rustig aan! Je voert iets te vaak zoekop
 $definitions["email.header"] = "<p>Hoi %s!</p>";
 $definitions["email.footer"] = "<p>(Als je geen emails meer van ons wilt ontvangen kan je dit in je <a href='%s'>notificatie instellingen aanpassen</a>)</p>";
 
-$definitions["email.confirmEmail.subject"] = "%1\$s, bevestig alsjeblieft je emailadres";
-$definitions["email.confirmEmail.body"] = "<p>Iemand (hopelijk jij!) heeft zicht aangemeld voor het forum '%1\$s' met dit emailadres.</p><p>Als jij dit bent geweest kan je op onderstaande link klikken om je account te activeren:<br>%2\$s</p>";
+$definitions["email.confirmEmail.subject"] = "%1\$s, activeer je account";
+$definitions["email.confirmEmail.body"] = "<p>Leuk dat je je hebt aangemeld op ons forum '%1\$s'!</p><p>Om te kunnen posten moet je alleen nog even je account activeren via onderstaande link:<br>%2\$s</p>";
 
-$definitions["email.approved.subject"] = "%1\$s, je account is goedgekeurd";
-$definitions["email.approved.body"] = "<p>Je account op %1\$s is goedgekeurd.</p><p>Klik op de volgende link om in te loggen en deel te nemen aan de conversaties:<br>%2\$s</p>";
+$definitions["email.approved.subject"] = "%1\$s, je account is geactiveerd";
+$definitions["email.approved.body"] = "<p>Je account op %1\$s is geactiveerd!</p><p>Klik op de volgende link om in te loggen en start met posten:<br>%2\$s</p>";
 
 $definitions["email.forgotPassword.subject"] = "Ben je je wachtwoord vergeten, %1\$s?";
 $definitions["email.forgotPassword.body"] = "<p>Iemand (hopelijk jij!) heeft aangeven dat je het wachtwoord wilt wijzigen voor het forum '%1\$s'. Als dit niet het geval is kan je deze email als niet verzonden beschouwen.</p><p>Als je wel je wachtwoord wilt wijzigen klik je op onderstaande link:<br>%2\$s</p>";
