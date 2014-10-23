@@ -215,7 +215,7 @@ $definitions["Installed Plugins"] = "Geinstalleerde Plugins";
 $definitions["Installed plugins"] = "Installed plugins";
 $definitions["Installed Skins"] = "Geinstalleerde Skins";
 $definitions["Installed skins"] = "Geinstalleerde skins";
-$definitions["is %s"] = "is %s";
+$definitions["is %s"] = "is aan het %s";
 
 $definitions["Joined"] = "Lid sinds";
 $definitions["just now"] = "zojuist";
@@ -400,7 +400,8 @@ $definitions["View all notifications"] = "Bekijk alle notificaties";
 $definitions["View more"] = "Bekijk meer";
 $definitions["View your profile"] = "Bekijk je profiel";
 $definitions["View"] = "Bekijk";
-$definitions["Viewing: %s"] = "Bekijkt: %s";
+$definitions["Viewing: %s"] = "bekijken: %s";
+$definitions["Viewing %s"] = "bekijken: %s";
 $definitions["viewingPosts"] = "<b>%s-%s</b> of %s berichten";
 
 $definitions["Warning"] = "Waarschuwing";
