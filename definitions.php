@@ -202,6 +202,7 @@ $definitions["Guests can view the:"] = "Gasten kunnen bekijken:";
 $definitions["Header"] = "Header";
 $definitions["Header color"] = "Headerkleur";
 $definitions["Heads Up!"] = "Opgelet!";
+$definitions["hidden"] = "verborgen";
 $definitions["Hide"] = "Verbergen";
 $definitions["Home page"] = "Startpagina";
 $definitions["HTML is allowed."] = "HTML is toegestaan.";
