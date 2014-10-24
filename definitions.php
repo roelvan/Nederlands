@@ -19,6 +19,7 @@ $definitions["date.full"] = "%c";
 
 $definitions["%d day ago"] = "gisteren";
 $definitions["%d days ago"] = "%d dagen geleden";
+$definitions["%d hidden"] = "%d verborgen";
 $definitions["%d hour ago"] = "1 uur geleden";
 $definitions["%d hours ago"] = "%d uur geleden";
 $definitions["%d minute ago"] = "1 minuut geleden";
