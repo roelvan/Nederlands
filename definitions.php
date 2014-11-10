@@ -441,7 +441,7 @@ $definitions["message.emailDoesntExist"] = "Dit emailadres is niet bekend, welli
 $definitions["message.emailNotYetConfirmed"] = "Je moet je emailadres bevestigen voordat je ermee in kan loggen! Als je geen email hebt ontvangen, controleer dan je spam folder of <a href='%s'>klik hier</a> om de confirmatie email opnieuw te sturen.";
 $definitions["message.emailTaken"] = "Vreemd, er is al een lid met dit emailadres!";
 $definitions["message.empty"] = "Dit veld is verplicht.";
-$definitions["message.emptyPost"] = "Tja, het is wel handig als je iets in je reactie schijft he...";
+$definitions["message.emptyPost"] = "Uhm, een lege reactie kan niemand lezen he..";
 $definitions["message.emptyTitle"] = "De titel van het onderwerp kan niet leeg zijn. Hoe moet men er dan op klikken?.";
 $definitions["message.esoTalkAlreadyInstalled"] = "<strong>esoTalk is al geinstalleerd.</strong><br/><small>Verwijderd <strong>config/config.php</strong> om esoTalk te herinstalleren.</small>";
 $definitions["message.esoTalkUpdateAvailable"] = "Een nieuwe versie van esoTalk, %s, is nu beschikbaar.";
