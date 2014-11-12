@@ -290,6 +290,7 @@ $definitions["Notifications"] = "Notificaties";
 $definitions["Now"] = "nu";
 
 $definitions["OK"] = "Ok";
+$definitions["Older"] = "Ouder";
 $definitions["Online"] = "Online";
 $definitions["online"] = "online";
 $definitions["Only allow members of this group to see who else is in it"] = "Alleen leden van deze groep kunnen zien wie er nog meer lid is van deze groep";
