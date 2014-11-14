@@ -274,7 +274,6 @@ $definitions["MySQL version"] = "MySQL versie";
 $definitions["Name"] = "Naam";
 $definitions["never"] = "nooit";
 $definitions["%s new"] = "%s nieuw";
-$definitions["New conversation"] = "Nieuw onderwerp";
 $definitions["New Conversation"] = "Nieuw Onderwerp";
 $definitions["New conversations in the past week"] = "Nieuwe onderwerpen in de afgelopen week";
 $definitions["New email"] = "Nieuw email";
