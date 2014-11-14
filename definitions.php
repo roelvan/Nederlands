@@ -281,6 +281,7 @@ $definitions["New members in the past week"] = "Nieuwe leden in de afgelopen wee
 $definitions["New password"] = "Nieuw wachtwoord";
 $definitions["New posts in the past week"] = "Nieuwe berichten in de afgelopen week";
 $definitions["New username"] = "Nieuwe gebruikersnaam";
+$definitions["Newer"] = "Nieuwer";
 $definitions["Next Step"] = "Volgende Stap";
 $definitions["Next"] = "Volgende";
 $definitions["No preview"] = "Geen voorbeeld";
