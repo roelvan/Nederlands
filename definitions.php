@@ -44,6 +44,7 @@ $definitions["%s has registered and is awaiting approval."] = "%s is geregistree
 $definitions["%s invited you to %s."] = "%s heeft je uitgenodigd in %s.";
 $definitions["%s joined the forum."] = "%s is lid geworden.";
 $definitions["%s mentioned you in %s."] = "%s noemt je in een reactie %s.";
+$definitions["%s others"] = "%s anderen";
 $definitions["%s post"] = "%s bericht";
 $definitions["%s posted %s"] = "%s postte %s";
 $definitions["%s posted in %s."] = "%s postte in %s.";
