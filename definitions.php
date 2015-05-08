@@ -223,7 +223,7 @@ $definitions["is %s"] = "is aan het %s";
 $definitions["Joined"] = "Lid sinds";
 $definitions["just now"] = "zojuist";
 
-$definitions["Keep me logged in"] = "Onthoudt wachtwoord";
+$definitions["Keep me logged in"] = "Onthoud wachtwoord";
 $definitions["<strong>Keep this member's posts.</strong> All of this member's posts will remain intact, but will show [deleted] as the author."] = "<strong>Behoud de berichten van dit lid.</strong> Alle berichten van dit lid blijven behouden, maar de auteur wordt weergegeven als [verwijderd].";
 
 $definitions["label.draft"] = "Concept";
